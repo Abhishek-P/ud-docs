@@ -148,6 +148,6 @@ By combining these approaches, UD treebanks aim to balance linguistic tradition 
 
 ## Treebanks
 
-[UD_Georgian-GLC][https://universaldependencies.org/treebanks/ka_glc/index.html] is the first UD treebank for Georgian.
+[UD_Georgian-GLC](https://universaldependencies.org/treebanks/ka_glc/index.html) is the first UD treebank for Georgian.
 
 ---
