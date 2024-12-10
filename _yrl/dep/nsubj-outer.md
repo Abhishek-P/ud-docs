@@ -10,28 +10,54 @@ to signal that it is not the subject of the nested clause.
 See discussion of [Predicate Clauses](../overview/complex-syntax.html#predicate-clauses).
 
 ~~~ sdparse
--ROOT- Ape kwá Deus akangaiwasawa puranga piri apigawa-itá ukwawasawa suí .
-advmod(puranga, Ape)
-det(akangaiwasawa, kwá)
-nmod:poss(akangaiwasawa, Deus)
-nsubj:outer(puranga, akangaiwasawa)
-root(-ROOT-, puranga)
-advmod(puranga, piri)
-nsubj(ukwawasawa, apigawa-itá)
-obl(puranga, ukwawasawa)
-case(ukwawasawa, suí)
-punct(puranga, .)
-
+-ROOT- The problem is that this has never been tried .
+nsubj:outer(tried, problem)
+cop(tried, is)
+mark(tried, that)
+nsubj:pass(tried, this)
+aux(tried, has)
+advmod(tried, never)
+aux:pass(tried, been)
+root(-ROOT-, tried)
 ~~~
 
+~~~ sdparse
+The title is Some Like It Hot .
+nsubj:outer(Like, title)
+cop(Like, is)
+nsubj(Like, Some)
+obj(Like, It)
+xcomp(Like, Hot)
+~~~
 
+There may be an outer subject with no inner subject:
+
+~~~ sdparse
+The important thing is to keep calm .
+nsubj:outer(keep, thing)
+cop(keep, is)
+mark(keep, to)
+xcomp(keep, calm)
+~~~
+
+The clausal counterpart of this relation is [csubj:outer]().
+
+Only subjects are required to be distinguished in this way. There may, for example, be inner and outer copulas, both attaching as [cop]():
+
+~~~ sdparse
+The important thing is to be calm .
+nsubj:outer(calm, thing)
+cop(calm, is)
+mark(calm, to)
+cop(calm, be)
+~~~
 
 The `:outer` subtype is *not* intended for most nominal subjects of copular clauses—only those where the predicate is itself a clause. 
 Plain [nsubj]() (or another subtype) will be appropriate if the copular clause predicate is a nominal, adjective, etc.:
 
 ~~~ sdparse
-Nhaã papera puranga .
-nsubj(puranga, papera)
+That book is very good .
+nsubj(good, book)
 ~~~
 
 ~~~ sdparse
