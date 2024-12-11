@@ -307,7 +307,7 @@ fixed(such, as)
 ~~~
 
 
-## Reciprocal Pronouns
+### Reciprocal Pronouns
 
 The first word is marked as [PronType]()=`Rcp`. See discussion at [PRON]().
 

@@ -48,7 +48,7 @@ the motion verbs.
 
 #### Examples
 
-- _кѹрѧнꙑ съ половьци <b>идоша<b> на пльсковъ <b>прогонитъ</b> всѣволода_ &nbsp;“Kursk people and Cumans went to Pskov to drive Vsevolod away”
+- _кѹрѧнꙑ съ половьци <b>идоша</b> на пльсковъ <b>прогонитъ</b> всѣволода_ &nbsp;“Kursk people and Cumans went to Pskov to drive Vsevolod away”
 
 
 ### <a name="Part">`Part`</a>: participle
