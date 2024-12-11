@@ -26,6 +26,8 @@ These are proper nouns referring to people.
 They are often multiword expressions and individual parts may be tagged `PART` or `DET` or `ADJ`.
 In ARCOSG they are tagged with XPOS beginning `Nn`.
 
+#### Examples
+
 * _Jack Straw_
 * _Ealasaid Nic Ille Bhàin_
 * _Mac an Deòir_
