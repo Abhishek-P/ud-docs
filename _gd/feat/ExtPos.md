@@ -7,7 +7,7 @@ udver: '2'
 
 This feature indicates the effective UPOS of a multiword expression when it differs from the UPOS of the first word.
 
-The multiword expressions are documented in detail at [`fixed`](https://universaldependencies.org/gd/dep/fixed.html)
+The multiword expressions that use `fixed` are documented in detail at [`fixed`](https://universaldependencies.org/gd/dep/fixed.html)
 
 ### <a name="ADJ">`ADJ`</a>: multiword adjective
 
@@ -67,6 +67,11 @@ Most of these, according to GOC, are spelt with a hyphen so this covers both obv
 * _<b>có</b> dhiubh_ - which of them
 * _<b>cia</b> mheud_ - how many
 * _<b>car</b> son_ - why (usually a single word)
+
+### <a name="PROPN">`PROPN`</a>: multiword proper noun, usually a title
+#### Examples
+
+* _<b>Théid<b/> mi do na h-eileanan, Thairis air na monaidhean_ 'I shall go to the islands over the moors', the first line of the song _Miann Cridhe_. Largs Gaelic Choir have put the lyrics and an English translation online here: =https://largsgaelic.com/wp-content/uploads/2021/05/Miann-Cridhe.pdf
 
 ### <a name="SCONJ">`SCONJ`</a>: multiword subordinators
 #### Examples
