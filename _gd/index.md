@@ -71,7 +71,7 @@ Gaelic has two genders (masculine and feminine), four cases (nominative/accusati
 
 The words _fèin_ and _cheile_ take `Reflex=Yes`.
 
-The indicative mood is default and we mark the conditional (`Cnd`), imperative (`Imp`) and interrogative (`Int`) moods. The tenses we mark are 
+The indicative mood is marked `Ind` and we mark the conditional (`Cnd`), imperative (`Imp`) and interrogative (`Int`) moods. The tenses we mark are 
 
 We also follow Irish in marking three pronoun types (`Emp` = emphatic, `Int` = interrogative and `Rel` = relative), polarity (`Neg` on negative particles) and the following particle types: `Ad` (adverbialiser), `Comp` (comparative), `Cmpl` (complement), `Inf` (agreement particle), `Int` (interrogative), `Num` (numerical), `Pat` (patronymic), `Vb` (verbal) and `Voc` (vocative).
 
