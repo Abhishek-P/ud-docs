@@ -27,23 +27,23 @@ Usually the verb is marked by the relative particle _a_ but this may be omitted 
 'The girl who was serving came and Màiri ordered a cup of tea.' (f01\_089)
 
 ~~~ conllu
-19	facal	facal	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	_
-20-21	den	_	_	_	_	_	_	_	_
-20	de	de	ADP	Sp	_	22	case	_	_
-21	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
-22	chànain	cànan	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	_
-23	anns	an	ADP	Sp	_	25	case	_	_
-24	an	an	PART	Qq	PartType=Vb|PronType=Int	25	mark:prt	_	_
-25	robh	bi	VERB	V-s--d	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
-26	ise	i	PRON	Pp3sf-e	Form=Emp|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
-27	cho	cho	ADV	Rg	AdvType=Man	28	advmod	_	_
-28	fileanta	fileanta	ADJ	Ap	_	25	xcomp:pred	_	SpaceAfter=No
+1	facal	facal	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2-3	den	_	_	_	_	_	_	_	_
+2	de	de	ADP	Sp	_	4	case	_	_
+3	an	an	DET	Tds	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	chànain	cànan	NOUN	Ncsfd	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_
+5	anns	an	ADP	Sp	_	7	case	_	_
+6	an	an	PART	Qq	PartType=Vb|PronType=Int	7	mark:prt	_	_
+7	robh	bi	VERB	V-s--d	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	ise	i	PRON	Pp3sf-e	Form=Emp|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+9	cho	cho	ADV	Rg	AdvType=Man	10	advmod	_	_
+10	fileanta	fileanta	ADJ	Ap	_	7	xcomp:pred	_	SpaceAfter=No
 ~~~
 
 'a word of the language in which she was so fluent' (f01\_097)
 
 ### Related deprels
 
-* `advcl:relcl` for the analogous case where the head is an adverb or possibly an adjective or adverb.
-* `csubj:cleft` for where a relative clause is part of a cleft sentence.
-* `csubj:cop` for where a relative clause is part of a different sort of sentence including a copula.
+* [advcl:relcl](advcl-relcl.html) for the analogous case where the head is an adverb or possibly an adjective or adverb.
+* [csubj:cleft](csubj-cleft.html) for where a relative clause is part of a cleft sentence.
+* [csubj:cop](csubj-cop.html) for where a relative clause is part of a different sort of sentence including a copula.
