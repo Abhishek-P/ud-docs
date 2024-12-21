@@ -52,9 +52,9 @@ If on the other hand there is a sequence of adjectives that aren't all the same 
 
 _fhìor sheann fhreumhan_ 'very old roots' (fp07\_007)
 ~~~ conllu
-28	fhìor	fìor	ADJ	Ar	_	29	amod	_	_
-29	sheann	seann	ADJ	Ar	_	30	amod	_	_
-30	fhreumhan	freumh	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	26	obl	_	_
+1	fhìor	fìor	ADJ	Ar	_	2	amod	_	_
+2	sheann	seann	ADJ	Ar	_	3	amod	_	_
+3	fhreumhan	freumh	NOUN	Ncpmd	Case=Dat|Gender=Masc|Number=Plur	0	root	_	_
 ~~~
 
 #### _deug_

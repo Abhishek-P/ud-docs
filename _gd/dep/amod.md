@@ -27,6 +27,7 @@ _Thòisich an t-seirbheis aiseig <b>ùr</b> eadar Earra Ghaidheal agus Èirinn a
 15	beagan	beagan	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	_
 16	mhionaidean	mionaid	NOUN	Ncpfg	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	Fe	_	1	punct	_	_
+
 ~~~
 
 This applies equally to adjectives that go before the noun, like _deagh_ (good), _droch_ (bad) and _seann_ (old):
@@ -34,8 +35,9 @@ This applies equally to adjectives that go before the noun, like _deagh_ (good),
 _an <b>t-seann</b> riaghaltas_ 'the old government'
 
 ~~~ conllu
-29	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-30	t-seann	seann	ADJ	Ar	_	31	amod	_	_
-31	riaghaltas	riaghaltas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	27	conj	_	_
+1	an	an	DET	Tdsm	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	t-seann	seann	ADJ	Ar	_	3	amod	_	_
+3	riaghaltas	riaghaltas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
 ~~~
 <!-- Interlanguage links updated Po 11. listopadu 2024, 20:10:25 CET -->
