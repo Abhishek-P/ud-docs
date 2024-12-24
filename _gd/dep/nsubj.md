@@ -54,7 +54,7 @@ In zero-copula constructions (_Sin e_, _Seo mise_) the first word is the root an
 
 _Sin <b>e</b> dìreach mar a thachair do chroitearan Bheàrnaraigh._
 
-'That's <b>it</b< just as it happened to the crofters of Berneray.'
+'That's <b>it</b> just as it happened to the crofters of Berneray.'
 
 ~~~ conllu
 1	Sin	sin	PRON	Pd	_	0	root	_	_

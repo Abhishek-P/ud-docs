@@ -5,7 +5,11 @@ shortdef: 'oblique spatial modifier'
 udver: '2'
 ---
 
-This label is used when a nominal phrase has a spatial aspect and is acting adverbially, attaching to a verb.  
+(Up to release 2.15)
+
+This is used when a noun phrase is connected to a verb, indicates where something is happening and is also unmarked with an adposition and in the nominative.
+
+In release 2.16 and after this is replaced by [obl:unmarked]().
 
 ### Examples
 

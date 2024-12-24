@@ -5,7 +5,7 @@ shortdef : 'descriptor modifier in nominal'
 udver: '2'
 ---
 
-** DRAFT v2 **
+** IMPLEMENTATION IN PROGRESS **
 
 This relation subtype applies to nominal modifiers that we term __descriptors__.
 These are bare nominals that occur in or with a name, and are not prepositional/possessive
