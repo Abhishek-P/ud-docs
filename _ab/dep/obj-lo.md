@@ -5,7 +5,7 @@ shortdef: 'local object'
 udver: '2'
 ---
 
-The `obj:lo` relation marks an an object referenced by a local object marker.
+The `obj:lo` relation marks an object referenced by a local object marker.
 
 ~~~ conllu
 # text = Аруаа ақыҭа иалалоит .
