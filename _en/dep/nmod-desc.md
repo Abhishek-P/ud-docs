@@ -17,13 +17,13 @@ where the main part of a proper name is not a sufficiently unique identifier.
 Crucially, omitting the descriptor does not affect the grammaticality of the expression
 (and does not come across as an abbreviation of the full name).
 
-Descriptors are determinerless modifiers, in which respect they are distinguished
-from appositives (the [appos]() relation holds between two *full* nominals).
-In principle, they are a special case of [nmod:unmarked]().
+Descriptors are bare modifiers (i.e. the descriptor noun lacks a determiner, possessive, or numeral).
+This distinguishes them from appositives: the [appos]() relation holds between two *full* nominals.
+In principle, descriptors are a special case of [nmod:unmarked]().
 
 ## Personal Names
 
-One descriptor construction is the pre- or postmodification of a personal name with a (determinerless) role or title:
+One descriptor construction is the pre- or postmodification of a personal name with a (bare nominal) role or title:
 
 ** NOTE: we need to standardize UPOS. [SYM]() says that Dr. and Mr. are NOUN but in English treebanks they are predominantly PROPN. **
 
