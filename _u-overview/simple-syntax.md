@@ -60,7 +60,7 @@ Note, finally, that not all languages allow extended transitives (and some do on
 ### Valency-Changing Operations
 
 If passivization involves the promotion of an argument to subject position, then this argument can be
-annotated with a special subtype `nsubj:pass` to indicate that promotion has taken place. The subtype
+annotated with a special subtype [nsubj:pass]() to indicate that promotion has taken place. The subtype
 [obl:agent]() indicates the demoted subject (if present).
 
 ~~~ sdparse
