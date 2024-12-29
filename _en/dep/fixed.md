@@ -59,14 +59,13 @@ cc(cats, as-4)
 conj(dogs, cats)
 ~~~
 
-<!-- TODO: add POS tags for remaining examples -->
 
 *rather than* <!-- https://github.com/UniversalDependencies/UD_English-EWT/issues/182 -->
 
 Typically analyzed as a coordinating conjunction:
 
 ~~~ sdparse
-I decided to get a dog rather/[ExtPos=CCONJ] than a cat
+I decided to get a dog rather/ADV[ExtPos=CCONJ] than/ADP a cat
 fixed(rather, than)
 cc(cat, rather)
 conj(dog, cat)
@@ -75,7 +74,7 @@ conj(dog, cat)
 However, when fronted, it attaches as `case` or `mark`:
 
 ~~~ sdparse
-Rather/[ExtPos=ADP] than a cat , I decided to get a dog.
+Rather/ADV[ExtPos=ADP] than/ADP a cat , I decided to get a dog.
 fixed(Rather, than)
 case(cat, Rather)
 obl(decided, cat)
@@ -86,16 +85,19 @@ obl(decided, cat)
 Similar in meaning to *rather than*, but never analyzed as a coordinating conjunction, always `case` or `mark`:
 
 ~~~ sdparse
-John went instead/[ExtPos=ADP] of Mary
+John went instead/ADV[ExtPos=ADP] of/ADP Mary
 fixed(instead, of)
 case(Mary, instead)
 ~~~
 
 ~~~ sdparse
-John left early instead/[ExtPos=SCONJ] of staying for the whole thing
+John left early instead/ADV[ExtPos=SCONJ] of/SCONJ staying for the whole thing
 fixed(instead, of)
 mark(staying, instead)
 ~~~
+
+
+<!-- TODO: add POS tags for remaining examples -->
 
 *let alone*
 
