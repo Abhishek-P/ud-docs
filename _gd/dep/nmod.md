@@ -15,8 +15,8 @@ Note that nominal modifiers of verbal nouns use [obl]() or [obl:unmarked]() inst
 ### Examples
 
 * _tuathanas beag <b>aige</b>_ '<b>his</b> wee farm' where _aige_ is a multiword token that breaks up into the preposition _aig_ and the pronoun _e_
-* _eachdraidh na <b>Frainge</b>_ 'the history of <b>France<b>' where _na Frainge_ is the genitive form of _an Fhraing_. (fp09\_029)
-* _a Rìgh <b>Èireann</b>_ 'o King of Ireland' (n02\_006)
+* _eachdraidh na <b>Frainge</b>_ 'the history of <b>France</b>' where _na Frainge_ is the genitive form of _an Fhraing_. (fp09\_029)
+* _a Rìgh <b>Èireann</b>_ 'o King of <b>Ireland</b>' (n02\_006)
 
 
 

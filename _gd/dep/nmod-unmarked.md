@@ -1,6 +1,6 @@
 ---
 layout: relation
-title: 'nmod'
+title: 'nmod:unmarked'
 shortdef: 'unmarked nominal modifier'
 udver: '2'
 ---
@@ -10,11 +10,13 @@ If there is a preposition or `Case=Gen` we use `nmod` instead.
 
 ### Examples
 
-#### Borrowings
+#### Indeclinables
 
-Used where a nominal modifier is a noun and would normally be in the genitive form but can't be declined.
+Used where a nominal modifier is a noun and would normally be in the genitive form but has not been declined as it is a borrowing or a foreign name.
 
-_Thèid rannsachadh <b>post-mortem</b> a dhèanamh an-diugh_ 'A <b>post-mortem</b> examination will be done today' (ns08\_000)
+* _fo chomain aig obair <b>Flinn</b>_ 'under an obligation to the work of <b>Flinn</b>' (fp09\_014)
+* _Thèid rannsachadh <b>post-mortem</b> a dhèanamh an-diugh_ 'A <b>post-mortem</b> examination will be done today' (ns08\_000)
+
 
 #### _caomh_, _chòir_, _fheudar_, _toil_
 
@@ -26,6 +28,7 @@ nmod:unmarked(fheudar, dhuinn)
 cop(b', fheudar)
 csubj:cop(fàgail, fheudar)
 ~~~
+
 
 #### _fhèin_ 
 _Bett <b>fhèin</b> a' ruith suas_ 'Bett <b>himself</b> running up' (s09_017)
