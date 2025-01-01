@@ -20,15 +20,17 @@ At present, this relation is used inside the following expressions, semantically
 
 | Category | Expressions |
 |----------|-------------|
-| [Augmentative/substitutive/conjunctive](#augmentativesubstitutiveconjunctive-expressions) | *as well*, *as well as*, *rather than*, *instead of*, *let alone* |
+| [Augmentative](#augmentative-expressions) | *as well*, *as well as* |
+| [Contrastive](#contrastive-connectives) | *rather than*, *instead of*, *as opposed to* |
 | [Causal](#causal-connectives) | *because of*, *due to*, *how come*, *in order*, *so as to*, *so that*, *such that* |
 | [Spatiotemporal](#spatiotemporal-markers) | *in between*, *prior to*, *on board* |
 | [Circumstantial/conditional](#circumstantialconditional-connectives) | *in case (of)*, *whether or not* |
-| [Approximators](#approximators-quantity-modifiers) | with a quantity: *more than*, *less than*, *up to*, *as many/much/few/little as*, *all of* |
+| [Elaboration/exemplification/analogy](#elaborationexemplificationanalogy-connectives) | *as if*, *in that*, *let alone*, *not to mention*, *such as*, *that is* |
+| [Topic shift](#topic-shift-markers) | *as for*, *as to* |
 | [Attributional](#attributional-markers) | *according to* |
-| [Exemplification](#exemplification) | *such as* |
-| [Reciprocal Pronouns](#reciprocal-pronouns) | *each other*, *one another* |
-| [Pragmatic/miscellaneous](#pragmaticmiscellaneous-markers) | *all but*, *as for*, *as if*, *as opposed to*, *as to*, *at least* (non-quantity), *in that*, *kind/sort of* (hedge), *not to mention*, *of course*, *that is* |
+| [Speaker commitment](#speaker-commitment-markers) | *all but*, *at least* (non-quantity), *kind/sort of* (hedge), *of course* |
+| [Approximators](#approximators-quantity-modifiers) | with a quantity: *more than*, *less than*, *up to*, *as many/much/few/little as*, *all of* |
+| [Reciprocal pronouns](#reciprocal-pronouns) | *each other*, *one another* |
 
 Below the description of `fixed` expressions are a few idiomatic combinations that are [analyzed without `fixed`](#not-fixed). These are summarized as follows:
 
@@ -39,7 +41,7 @@ Below the description of `fixed` expressions are a few idiomatic combinations th
 
 ## `fixed` expressions
 
-### Augmentative/substitutive/conjunctive expressions
+### Augmentative expressions
 
 *as well*
 
@@ -59,14 +61,14 @@ cc(cats, as-4)
 conj(dogs, cats)
 ~~~
 
-<!-- TODO: add POS tags for remaining examples -->
+### Contrastive connectives
 
 *rather than* <!-- https://github.com/UniversalDependencies/UD_English-EWT/issues/182 -->
 
 Typically analyzed as a coordinating conjunction:
 
 ~~~ sdparse
-I decided to get a dog rather/[ExtPos=CCONJ] than a cat
+I decided to get a dog rather/ADV[ExtPos=CCONJ] than/ADP a cat
 fixed(rather, than)
 cc(cat, rather)
 conj(dog, cat)
@@ -75,7 +77,7 @@ conj(dog, cat)
 However, when fronted, it attaches as `case` or `mark`:
 
 ~~~ sdparse
-Rather/[ExtPos=ADP] than a cat , I decided to get a dog.
+Rather/ADV[ExtPos=ADP] than/ADP a cat , I decided to get a dog.
 fixed(Rather, than)
 case(cat, Rather)
 obl(decided, cat)
@@ -86,26 +88,27 @@ obl(decided, cat)
 Similar in meaning to *rather than*, but never analyzed as a coordinating conjunction, always `case` or `mark`:
 
 ~~~ sdparse
-John went instead/[ExtPos=ADP] of Mary
+John went instead/ADV[ExtPos=ADP] of/ADP Mary
 fixed(instead, of)
 case(Mary, instead)
 ~~~
 
 ~~~ sdparse
-John left early instead/[ExtPos=SCONJ] of staying for the whole thing
+John left early instead/ADV[ExtPos=SCONJ] of/SCONJ staying for the whole thing
 fixed(instead, of)
 mark(staying, instead)
 ~~~
 
-*let alone*
+<!-- TODO: add POS tags for remaining examples -->
+
+*as opposed to*
 
 ~~~ sdparse
-He could n't handle being hurt , let/VERB[ExtPos=CCONJ] alone/ADJ hurt by you
-fixed(let, alone)
-cc(hurt-10, let)
-conj(hurt-6, hurt-10)
+John decided to leave early , as/[ExtPos=ADP] opposed to Mary
+fixed(as, opposed)
+fixed(as, to-9)
+case(Mary, as)
 ~~~
-
 
 ### Causal connectives
 
@@ -241,6 +244,128 @@ fixed(whether, not)
 mark(feel, whether)
 ~~~
 
+### Elaboration/exemplification/analogy connectives
+
+*as if*
+
+~~~ sdparse
+It was as/[ExtPos=SCONJ] if he cried to make you feel bad
+fixed(as, if)
+mark(cried, as)
+~~~
+
+*in that*
+
+~~~ sdparse
+I agree in/[ExtPos=SCONJ] that the food is tasty
+fixed(in, that)
+mark(tasty, in)
+advcl(agree, tasty)
+~~~
+
+*let alone*
+
+~~~ sdparse
+He could n't handle being hurt , let/VERB[ExtPos=CCONJ] alone/ADJ hurt by you
+fixed(let, alone)
+cc(hurt-10, let)
+conj(hurt-6, hurt-10)
+~~~
+
+*not to mention*
+
+~~~ sdparse
+This restaurant is pretty cheap with good food , not/[ExtPos=CCONJ] to mention their friendly staff
+fixed(not, to)
+fixed(not, mention)
+cc(staff, not)
+conj(food, staff)
+~~~
+
+*such as*
+
+~~~ sdparse
+I like fluffy animals , such/[ExtPos=ADP] as dogs
+case(dogs, such)
+fixed(such, as)
+~~~
+
+*that is*
+
+~~~ sdparse
+The dogs need to be housebroken -- that/[ExtPos=ADV] is , '' potty - trained ''
+fixed(that, is)
+advmod(trained, that)
+~~~
+
+### Topic shift markers
+
+*as for*
+
+~~~ sdparse
+As/[ExtPos=ADP] for me , I love dogs!
+fixed(As, for)
+case(me, As)
+obl(love, me)
+~~~
+
+*as to*
+
+~~~ sdparse
+As/[ExtPos=SCONJ] to whether I love dogs ...
+fixed(As, to)
+mark(love, As)
+~~~
+
+~~~ sdparse
+As/[ExtPos=ADP] to my love of dogs ...
+fixed(As, to)
+case(love, As)
+~~~
+
+### Attributional markers
+
+*according to*
+
+~~~ sdparse
+According/[ExtPos=ADP] to John
+fixed(According, to)
+case(John, According)
+~~~
+
+### Speaker commitment markers
+
+*all but*
+
+~~~ sdparse
+John has all/DET[ExtPos=ADV] but/ADP left
+fixed(all, but)
+advmod(left, all)
+~~~
+
+*at least* (when not used for quantities)
+
+~~~ sdparse
+At/ADP[ExtPos=ADV] least/ADJ I like dogs
+fixed(At, least)
+advmod(like, At)
+~~~
+
+*kind of*, *sort of* (as a hedge)
+
+~~~ sdparse
+I kind/[ExtPos=ADV] of like dogs
+fixed(kind, of)
+advmod(like, kind)
+~~~
+
+*of course*
+
+~~~ sdparse
+I like dogs , of/[ExtPos=ADV] course
+advmod(like, of)
+fixed(of, course)
+~~~
 
 ### Approximators (quantity modifiers)
 
@@ -285,29 +410,7 @@ fixed(All, of)
 advmod(minutes, All)
 ~~~
 
-### Attributional markers
-
-*according to*
-
-~~~ sdparse
-According/[ExtPos=ADP] to John
-fixed(According, to)
-case(John, According)
-~~~
-
-
-### Exemplification
-
-*such as*
-
-~~~ sdparse
-I like fluffy animals , such/[ExtPos=ADP] as dogs
-case(dogs, such)
-fixed(such, as)
-~~~
-
-
-### Reciprocal Pronouns
+### Reciprocal pronouns
 
 The first word is marked as [PronType]()=`Rcp`. See discussion at [PRON]().
 
@@ -325,108 +428,6 @@ obj(saw, each)
 They saw one/PRON[ExtPos=PRON] another/DET
 fixed(one, another)
 obj(saw, one)
-~~~
-
-
-### Pragmatic/miscellaneous markers
-
-*all but*
-
-~~~ sdparse
-John has all/DET[ExtPos=ADV] but/ADP left
-fixed(all, but)
-advmod(left, all)
-~~~
-
-*as for*
-
-~~~ sdparse
-As/[ExtPos=ADP] for me , I love dogs!
-fixed(As, for)
-case(me, As)
-obl(love, me)
-~~~
-
-*as if*
-
-~~~ sdparse
-It was as/[ExtPos=SCONJ] if he cried to make you feel bad
-fixed(as, if)
-mark(cried, as)
-~~~
-
-*as opposed to*
-
-~~~ sdparse
-John decided to leave early , as/[ExtPos=ADP] opposed to Mary
-fixed(as, opposed)
-fixed(as, to-9)
-case(Mary, as)
-~~~
-
-*as to*
-
-~~~ sdparse
-As/[ExtPos=SCONJ] to whether I love dogs ...
-fixed(As, to)
-mark(love, As)
-~~~
-
-~~~ sdparse
-As/[ExtPos=ADP] to my love of dogs ...
-fixed(As, to)
-case(love, As)
-~~~
-
-*at least* (when not used for quantities)
-
-~~~ sdparse
-At/ADP[ExtPos=ADV] least/ADJ I like dogs
-fixed(At, least)
-advmod(like, At)
-~~~
-
-*kind of*, *sort of* (as a hedge)
-
-~~~ sdparse
-I kind/[ExtPos=ADV] of like dogs
-fixed(kind, of)
-advmod(like, kind)
-~~~
-
-*in that*
-
-~~~ sdparse
-I agree in/[ExtPos=SCONJ] that the food is tasty
-fixed(in, that)
-mark(tasty, in)
-advcl(agree, tasty)
-~~~
-
-*not to mention*
-
-~~~ sdparse
-This restaurant is pretty cheap with good food , not/[ExtPos=CCONJ] to mention their friendly staff
-fixed(not, to)
-fixed(not, mention)
-cc(staff, not)
-conj(food, staff)
-~~~
-
-*of course*
-
-~~~ sdparse
-I like dogs , of/[ExtPos=ADV] course
-advmod(like, of)
-fixed(of, course)
-~~~
-
-*that is*
-
-~~~ sdparse
-The dogs need to be housebroken -- that/[ExtPos=ADV] is , '' potty - trained ''
-fixed(that, is)
-advmod(trained, that)
 ~~~
 
 ## Not `fixed`
