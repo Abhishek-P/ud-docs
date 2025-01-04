@@ -33,6 +33,16 @@ nmod(Èireann, Rìgh)
 ~~~
 
 #### Using prepositions
+##### _caomh_, _chòir_, _fheudar_, _toil_
+
+_b' fheudar <b>dhuinn</b> am fàgail_ '<b>we</b> would have to leave them' (c02_001a)
+
+~~~sdparse
+b' fheudar dhuinn am fàgail
+nmod(fheudar, dhuinn)
+cop(b', fheudar)
+csubj:cop(fàgail, fheudar)
+~~~
 
 * _b' fheudar do <b>Shir</b> Iain tilleadh a Mhuile_ '<b>Sir</b> Iain had to return to Mull' (fp03\_022, test)
 
@@ -45,6 +55,8 @@ csubj:cop(tilleadh, fheudar)
 case(a, Mhuile)
 obl(Mhuile, tilleadh)
 ~~~
+
+##### In general
 
 * _tuathanas beag <b>aige</b>_ '<b>his</b> small farm' where _aige_ is a multiword token that breaks up into the preposition _aig_ and the pronoun _e_
 
