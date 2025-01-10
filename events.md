@@ -8,7 +8,7 @@ udver: '2'
 
 ## 2025
 
-  * 8th UDW at [SyntaxFest in Ljubljana](https://syntaxfest.github.io/syntaxfest25/)
+  * [8th Workshop on Universal Dependencies (UDW)](https://universaldependencies.org/udw25/) at [SyntaxFest in Ljubljana](https://syntaxfest.github.io/syntaxfest25/)
 
 ## 2024
 
