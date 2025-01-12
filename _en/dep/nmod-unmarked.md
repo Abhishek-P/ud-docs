@@ -69,12 +69,14 @@ nmod:unmarked(degrees, Fahrenheit)
 
 ** DRAFT - NOT YET IMPLEMENTED **
 
+_For discussion of multiword place names like <b>Lake Mead</b> and <b>Route 66</b>, see [nmod:desc]()._
+
 Identifiers of specific locations are often complex, incorporating multiple levels of granularity.
 For some such descriptions, the locational parts are juxtaposed—perhaps with punctuation like commas or dashes, but without prepositions
 or other clear grammatical indication of headedness.
-Common examples include cities, where the city name is conventionally paired with a state/province/country name (*Berkeley, California, USA*);
+Common examples include cities, where the city name is conventionally paired with a state/province/country name (*<b>Berkeley, California, USA</b>*);
 street addresses, where a house number is related to a street name, and possibly to a subunit;
-and even textual references (*Act IV, Scene 1* in a play).
+and even textual references (*<b>Act IV, Scene 1</b>* in a play).
 The order of granularity is [big-endian](https://en.wikipedia.org/wiki/Endianness) for some of these naming patterns and little-endian for others.
 
 In the absence of morphosyntactic cues, we rely on semantics to determine the dependency relations:
