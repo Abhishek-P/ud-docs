@@ -65,7 +65,7 @@ nummod(degrees, 7)
 nmod:unmarked(degrees, Fahrenheit)
 ~~~
 
-## In names and dates
+## Locations
 
 ** DRAFT - NOT YET IMPLEMENTED **
 
@@ -88,11 +88,19 @@ nmod:unmarked(Berkeley, California)
 nmod:unmarked(Berkeley, USA)
 ~~~
 
+The city name heads both the state and country names, though any pair of these elements
+might occur without the third.
+
 ~~~ sdparse
 110/NUM Sproul/PROPN Hall/PROPN
 nmod:unmarked(110, Hall)
 compound(Hall, Sproul)
 ~~~
+
+Here, *Sproul Hall* names a building and *110* is the room or office number within the building.
+The room number is more specific, and is therefore the head. The same applies to apartment numbers,
+even if presented after the house number and street.
+Because the house number and street are clearly grouped together, the house number heads the street name:
 
 ~~~ sdparse
 221B/PROPN Baker/PROPN St./PROPN , Apt./PROPN E/PROPN
@@ -115,8 +123,8 @@ If the expression follows an extragrammatical format like a full postal address,
 
 ~~~ sdparse
 110/NUM Sproul/PROPN Hall/PROPN , Berkeley/PROPN , California/PROPN , USA/PROPN 94704/NUM
-list(Hall, Berkeley)
-list(Hall, 94704)
+list(110, Berkeley)
+list(110, 94704)
 ~~~
 
 ~~~ sdparse
@@ -126,9 +134,9 @@ list(Harry, 12)
 list(12, London)
 ~~~
 
-### Dates
+## Dates
 
-The same principles hold for locations in time:
+Locations in time follow the same principles as spatial [locations](#locations):
 
 ~~~ sdparse
 8/NUM[NumType=Card] October/PROPN 1963/NUM[NumType=Card]
@@ -148,13 +156,14 @@ nmod:unmarked(8th, October)
 nmod:unmarked(8th, 1963)
 ~~~
 
-Where two labels apply to the same location in time, [appos]() may be suitable:
+Where two labels apply to the same temporal unit, [appos]() may be suitable:
 
 ~~~ sdparse
 It starts at/ADP 8:00/NUM[NumType=Card] a.m./NOUN EST/PROPN on/ADP Monday/PROPN , October/PROPN 8/NUM[NumType=Card] .
 obl(8:00, at)
-nmod:unmarked(8:00, am)
+nmod:unmarked(8:00, a.m.)
 nmod:unmarked(8:00, EST)
+nmod(8:00, Monday)
 case(Monday, on)
 appos(Monday, 8)
 nmod:unmarked(8, October)
