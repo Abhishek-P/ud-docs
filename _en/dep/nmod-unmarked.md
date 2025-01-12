@@ -57,27 +57,41 @@ det(couple, a)
 nmod:unmarked(cookies, couple)
 ~~~
 
+(vi) scientific scale postmodifiers
+
+~~~ sdparse
+7/NUM degrees/NOUN Fahrenheit/PROPN
+nummod(degrees, 7)
+nmod:unmarked(degrees, Fahrenheit)
+~~~
+
 ## In names and dates
 
 ** DRAFT - NOT YET IMPLEMENTED **
 
-For naming patterns that incorporate a locational relation
-without a preposition (often punctuated with a comma or dash),
-we treat the locational element as `nmod:unmarked`.
-Multiple such elements may nest (but note that [flat]() connects composite
-type+number names).
-This includes:
+Identifiers of specific locations are often complex, incorporating multiple levels of granularity.
+For some such descriptions, the locational parts are juxtaposed—perhaps with punctuation like commas or dashes, but without prepositions
+or other clear grammatical indication of headedness.
+Common examples include cities, where the city name is conventionally paired with a state/province/country name (*Berkeley, California, USA*);
+street addresses, where a house number is related to a street name, and possibly to a subunit;
+and even textual references (*Act IV, Scene 1* in a play).
+The order of granularity is [big-endian](https://en.wikipedia.org/wiki/Endianness) for some of these naming patterns and little-endian for others.
 
-(i) a location-elaboration in an address (such as the state or country given after a city,
-or a numbered unit in relation to a building or street):
+In the absence of morphosyntactic cues, we rely on semantics to determine the dependency relations:
+the most specific locator serves as the head of all the others in the expression, provided that the
+expression is short enough that it would tend to occur as a nominal in a wider sentence.
+Dependents attach as `nmod:unmarked`:
 
 ~~~ sdparse
-110/NUM Sproul/PROPN Hall/PROPN , Berkeley/PROPN , California/PROPN , USA/PROPN
+Berkeley/PROPN , California/PROPN , USA/PROPN
+nmod:unmarked(Berkeley, California)
+nmod:unmarked(Berkeley, USA)
+~~~
+
+~~~ sdparse
+110/NUM Sproul/PROPN Hall/PROPN
 nmod:unmarked(110, Hall)
 compound(Hall, Sproul)
-nmod:unmarked(Hall, Berkeley)
-nmod:unmarked(Berkeley, California)
-nmod:unmarked(California, USA)
 ~~~
 
 ~~~ sdparse
@@ -85,14 +99,11 @@ nmod:unmarked(California, USA)
 nmod:unmarked(221B, St.)
 compound(St., Baker)
 flat(Apt., E)
-nmod:unmarked(221B, Apt.)
+nmod:unmarked(Apt., 221B)
 ~~~
 
-Note that the apartment is technically located within the building identified by a house number,
-but the apartment is presented as a refinement of the location (possibly separated by a comma),
-so it is considered the modifier.
-
-(ii) an institutional branch or campus
+Where the name of an institutional branch or campus juxtaposes the name of the institution followed by the name of a place, the institution is the head
+(but prepositional phrases are structured as usual):
 
 ~~~ sdparse
 University/PROPN of/ADP Wisconsin/PROPN – Madison/PROPN
@@ -100,28 +111,54 @@ nmod(University, Wisconsin)
 nmod:unmarked(University, Madison)
 ~~~
 
-(iii) larger units within a juxtaposition-based temporal expression
-(regardless of word order and cardinal vs. ordinal date)
+If the expression follows an extragrammatical format like a full postal address, the major parts are connected via [list]():
+
+~~~ sdparse
+110/NUM Sproul/PROPN Hall/PROPN , Berkeley/PROPN , California/PROPN , USA/PROPN 94704/NUM
+list(Hall, Berkeley)
+list(Hall, 94704)
+~~~
+
+~~~ sdparse
+Harry/PROPN Potter/PROPN , 12/NUM Grimmauld/PROPN Place/PROPN , London/PROPN
+flat(Harry, Potter)
+list(Harry, 12)
+list(12, London)
+~~~
+
+### Dates
+
+The same principles hold for locations in time:
 
 ~~~ sdparse
 8/NUM[NumType=Card] October/PROPN 1963/NUM[NumType=Card]
 nmod:unmarked(8, October)
-nmod:unmarked(October, 1963)
+nmod:unmarked(8, 1963)
 ~~~
 
 ~~~ sdparse
 October/PROPN 8/NUM[NumType=Card] , 1963/NUM[NumType=Card]
 nmod:unmarked(8, October)
-nmod:unmarked(October, 1963)
+nmod:unmarked(8, 1963)
 ~~~
 
 ~~~ sdparse
 October/PROPN 8th/NUM[NumType=Ord] , 1963/NUM[NumType=Card]
 nmod:unmarked(8th, October)
-nmod:unmarked(October, 1963)
+nmod:unmarked(8th, 1963)
 ~~~
 
-** TODO: postal codes, am/pm, time zones (maybe [list]()?) **
+Where two labels apply to the same location in time, [appos]() may be suitable:
+
+~~~ sdparse
+It starts at/ADP 8:00/NUM[NumType=Card] a.m./NOUN EST/PROPN on/ADP Monday/PROPN , October/PROPN 8/NUM[NumType=Card] .
+obl(8:00, at)
+nmod:unmarked(8:00, am)
+nmod:unmarked(8:00, EST)
+case(Monday, on)
+appos(Monday, 8)
+nmod:unmarked(8, October)
+~~~
 
 **History:** Prior to release 2.15, case (i) (temporal modifiers)
 had a separate subtype called [nmod:tmod](), and [nmod:npmod]()
