@@ -160,7 +160,8 @@ Where two labels apply to the same temporal unit, [appos]() may be suitable:
 
 ~~~ sdparse
 It starts at/ADP 8:00/NUM[NumType=Card] a.m./NOUN EST/PROPN on/ADP Monday/PROPN , October/PROPN 8/NUM[NumType=Card] .
-obl(8:00, at)
+obl(starts, 8:00)
+case(8:00, at)
 nmod:unmarked(8:00, a.m.)
 nmod:unmarked(8:00, EST)
 nmod(8:00, Monday)
