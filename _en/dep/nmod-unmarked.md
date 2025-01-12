@@ -131,7 +131,7 @@ list(110, 94704)
 Harry/PROPN Potter/PROPN , 12/NUM Grimmauld/PROPN Place/PROPN , London/PROPN
 flat(Harry, Potter)
 list(Harry, 12)
-list(12, London)
+list(Harry, London)
 ~~~
 
 ## Dates
