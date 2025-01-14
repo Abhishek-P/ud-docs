@@ -8,9 +8,9 @@ udver: '2'
 
 ## Tokenization and Word Segmentation
 
-No tokens in the Ancient Hebrew treebank should contain whitespace. The following are treated as clitics and made into separate tokens:
+No tokens in the Ancient Hebrew treebank should contain whitespace. The following are made into separate tokens:
 
-* Prepositions (ב, ל, מ, ...)
+* Prepositions (ב, כ, ל, מ)
 * Possessive and object pronouns (ני, נו, ו, ם, ...)
   * The corresponding independent pronoun is used as the lemma
 * Conjunction ו
@@ -27,8 +27,6 @@ All tags are used except `X` and `SYM`. `AUX` is used for the copula היה.
 The positive and negative existentials ישׁ and אין are tagged [VERB]().
 
 Participles are tagged either [VERB]() or [NOUN](). If they have arguments or obliques, they are tagged as [VERB](), but if they do not then they are tagged as [NOUN]() if they participate in nominal phrases.
-
-Verbs in the infinitive absolute which are used for emphasis are currently tagged as [ADV]() and attached to the inflected verb with `advmod`.
 
 ### Features
 
@@ -48,15 +46,17 @@ The following language-specific features are in use:
 
 The following MISC features are present:
 
+* `Gloss`
+* `Ref`
 * `SpaceAfter=No`
 
 ## Syntax
 
-The subtypes [compound:smixut](hbo-dep/compound-smixut) and [nmod:poss](hbo-dep/nmod-poss) are used. The relation `compound` is currently unused.
+The subtypes [compound:smixut](hbo-dep/compound-smixut), [nmod:poss](hbo-dep/nmod-poss), and [obl:npmod](hbo-dep/obl-npmod) are used. The relation `compound` is currently unused.
 
 The relations `iobj`, `expl`, and `clf` are unused.
 
-The relations `fixed`, `list`, `orphan`, `goeswith`, `reparandum`, and `dep` are currently unused, but may be used in future.
+The relations `list`, `goeswith`, `reparandum`, and `dep` are currently unused, but may be used in future.
 
 ## Treebanks
 
