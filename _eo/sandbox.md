@@ -12,13 +12,16 @@ As of January 2025, Esperanto UD contains one document (Manufest de Prago) annot
 TBA
 
 ### [Tags](pos/)
-
 TBA
 
 ### [Features](feat/)
-
 TBA
 
 ## Syntax
-
 TBA
+
+## Treebanks
+
+There are [one](../treebanks/eo-comparison.html) Esperanto UD treebanks:
+
+  * [Esperanto-Prago](../treebanks/eo_a/index.html)
