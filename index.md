@@ -69,7 +69,7 @@ longer maintained and they have been excluded from the most recent release.
 
 ## Download
 
-The data is released through LINDAT/CLARIN.
+The data is released through [LINDAT/CLARIAH-CZ](https://lindat.mff.cuni.cz/repository/).
 
 * The next release (v2.16) is scheduled for May 15, 2025 (data freeze on May 1).
 * Version 2.15 treebanks are available at <a href="http://hdl.handle.net/11234/1-5787">http://hdl.handle.net/11234/1-5787</a>. 296 treebanks, 168 languages, released November 15, 2024.
