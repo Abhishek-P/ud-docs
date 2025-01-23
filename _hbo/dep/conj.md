@@ -30,16 +30,16 @@ The `conj` relation is typically used to coordinate noun phrases or clauses whic
 
 ~~~
 
-בראשית ברא אלהים את השמים ואת הארץ׃
+_בראשית ברא אלהים את השמים ואת הארץ׃_
 
-In the beginning, God created the sky and the land.
+_In the beginning, God created the sky and the land._
 
 When several items occur in sequence and one in the middle lacks a conjunction, it is still attached with `conj`.
 
 ~~~ conllu
 # sent_id = Masoretic-Genesis-2:14-hbo
 # text = וְשֵׁ֨ם הַנָּהָ֤ר הַשְּׁלִישִׁי֙ חִדֶּ֔קֶל ה֥וּא הַֽהֹלֵ֖ךְ קִדְמַ֣ת אַשּׁ֑וּר וְהַנָּהָ֥ר הָֽרְבִיעִ֖י ה֥וּא פְרָֽת׃
-# checker = Daniel
+# visual-style 7 10 conj color:blue
 1-2	וְשֵׁ֨ם	_	_	_	_	_	_	_	_
 1	וְ	ו	CCONJ	conj	_	7	cc	_	Gloss=and|Ref=GEN_2.14
 2	שֵׁ֨ם	שׁם	NOUN	subs	Gender=Masc|Number=Sing	7	nsubj	_	Gloss=name|Ref=GEN_2.14
@@ -69,9 +69,9 @@ When several items occur in sequence and one in the middle lacks a conjunction, 
 
 ~~~
 
-ושם הנהר השלישי חדקל הוא ההלך קדמת אשור והנהר הרביעי הוז פרת׃
+_ושם הנהר השלישי חדקל הוא ההלך קדמת אשור והנהר הרביעי הוז פרת׃_
 
-And the name of the third river was Chidkal, it was the one that flowed from Asshur, and the fourth river, it was Parat.
+_And the name of the third river was Chidkal, it was the one that flowed from Asshur, and the fourth river, it was Parat._
 
 However, if there is not a following conjunction, [parataxis]() is used.
 
@@ -129,6 +129,6 @@ The `conj` relation is also used to attach prepositional phrases which express a
 
 ~~~
 
-יש לאל ידי לעשות עמכם רע ואלהי אביכם אמש אמר אלי לאמר השמר לך מדבר עם יעקב מטוב עד רע׃
+_יש לאל ידי לעשות עמכם רע ואלהי אביכם אמש אמר אלי לאמר השמר לך מדבר עם יעקב מטוב עד רע׃_
 
-It was to the power of my hand to do evil to you and the god your fathers yesterday evening said to me "Guard your from speaking with Jacob from good to bad.".
+_It was to the power of my hand to do evil to you and the god your fathers yesterday evening said to me "Guard your from speaking with Jacob from good to bad."._

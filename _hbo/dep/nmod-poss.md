@@ -40,8 +40,8 @@ nmod:poss(אבי, ו)
 
 ~~~
 
-ויכלו השמים והארץ וכל **צבאם**׃
+_ויכלו השמים והארץ וכל **צבאם**׃_
 
-And the sky and the land and all **their host** were completed.
+_And the sky and the land and all **their host** were completed._
 
 <!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:05 CET -->
