@@ -32,6 +32,7 @@ used as an adverbial modifier in a sentence. This primarily covers the construct
 ~~~
 
 ויאמר הנחש אל האשה לא מות תמתון׃
+
 And the snake said to the woman "You will not definitely die.".
 
 The majority of verbs in the infinitive absolute appear immediately before a finite verb with the same lemma, as in the example above.
@@ -65,6 +66,7 @@ In both of these situations, it is attached with [advcl]() instead.
 ~~~
 
 ויגדל האיש וילך הלוך וגדל **עד כי** גדל מאד׃
+
 And the man went, going and growing strong, **until** he was very strong.
 
 <!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:20 CET -->
