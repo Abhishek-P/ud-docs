@@ -11,6 +11,7 @@ udver: '2'
 No tokens in the Ancient Hebrew treebank should contain whitespace. The following are made into separate tokens:
 
 * Prepositions (ב, כ, ל, מ)
+  * There is an exception for לאמר, which remains a single token when it serves as a subordinating conjunction introducing a direct quotation
 * Possessive and object pronouns (ני, נו, ו, ם, ...)
   * The corresponding independent pronoun is used as the lemma
 * Conjunction ו
@@ -36,13 +37,13 @@ The following universal features are in use:
 * [Gender](hbo-feat/Gender): [ADJ](hbo-pos/ADJ), [AUX](hbo-pos/AUX), [NOUN](hbo-pos/NOUN), [PRON](hbo-pos/PRON), [VERB](hbo-pos/VERB)
 * [Mood](hbo-feat/Mood): [VERB](hbo-pos/VERB)
 * [Number](hbo-feat/Number): [NOUN](hbo-pos/NOUN), [PRON](hbo-pos/PRON), [ADJ](hbo-pos/ADJ), [VERB](hbo-pos/VERB)
-* [Person](hbo-feat/Person): [VERB](hbo-pos/VERB)
+* [Person](hbo-feat/Person): [AUX](hbo-pos/AUX), [VERB](hbo-pos/VERB)
 * [Tense](hbo-feat/Tense): [VERB](hbo-pos/VERB)
-* [VerbForm](hbo-feat/VerbForm): [VERB](hbo-pos/VERB)
+* [VerbForm](hbo-feat/VerbForm): [NOUN](hbo-pos/NOUN), [VERB](hbo-pos/VERB)
 
 The following language-specific features are in use:
 
-* [HebBinyan](hbo-feat/HebBinyan): [VERB](hbo-pos/VERB)
+* [HebBinyan](hbo-feat/HebBinyan): [VERB](hbo-pos/VERB) ([AUX](hbo-pos/AUX), [NOUN](hbo-pos/NOUN))
 
 The following MISC features are present:
 
