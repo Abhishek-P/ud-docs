@@ -41,6 +41,9 @@ The following phrases are treated as fixed expressions in the Ancient Hebrew tre
 
 ~~~
 
+ויאמר שלחני כי עלה השחר ויאמר לא אשלחך **כי אם** ברכתני׃
+And he said "Send me away, for the dawn has arisen." and he said "I will not send you away **unless** you bless me."
+
 ## לבלתי
 
 ~~~ conllu
@@ -82,6 +85,9 @@ The following phrases are treated as fixed expressions in the Ancient Hebrew tre
 25	׃	׃	PUNCT	punct	_	2	punct	_	Ref=GEN_19.21
 
 ~~~
+
+ויאמר אליו הנה נשאתי פניך גם לדבר הזה **לבלתי** הפכי את העיר אשר דברת׃
+And he said to him "See, I have lifted up your face for this thing also, **to not** overturn the city that you spoke of.".
 
 ## מה זה
 
@@ -128,6 +134,9 @@ In many cases, though, this sequence is an interrogative pronoun followed by a d
 
 ~~~
 
+ויאמר יצחק אל בנו **מה זה** מחרת למצא בני ויאמר כי הקרה יהוה אלהיך לפני׃
+And Isaac said to his son "**How** did you find it so quickly, my son?" and he said "Because The LORD your god brought it before me.".
+
 ## עד אם
 
 ~~~ conllu
@@ -161,6 +170,9 @@ In many cases, though, this sequence is an interrogative pronoun followed by a d
 
 ~~~
 
+ותכל להשקתו גם לגמליך אשאב **עד אם** כלו לשתת׃
+And she finished giving him a drink and she said "For your camels also, I will draw water **until** they have been fully watered.".
+
 ## עד כי
 
 ~~~ conllu
@@ -188,3 +200,6 @@ In many cases, though, this sequence is an interrogative pronoun followed by a d
 15	׃	׃	PUNCT	punct	_	2	punct	_	Ref=GEN_26.13
 
 ~~~
+
+ויגדל האיש וילך הלוך וגדל **עד כי** גדל מאד׃
+And the man went, going and growing strong, **until** he was very strong.
