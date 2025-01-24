@@ -17,7 +17,7 @@ No tokens in the Ancient Hebrew treebank should contain whitespace. The followin
 * Conjunction ו
 * Definite determiner ה
   * This includes ה when it appears as demonstrative agreement on adjectives, participles, and demonstrative determiners
-  * Since the text includes vowels diacritics, ה is included as a token even when it does correspond to a full character in the consonantal text.
+  * Since the text includes vowels diacritics, ה is included as a token even when it does not correspond to a full character in the consonantal text.
 
 ## Morphology
 
@@ -48,8 +48,12 @@ The following language-specific features are in use:
 The following MISC features are present:
 
 * `Gloss`
+  * Currently taken from [the BHSA `gloss` feature](https://etcbc.github.io/bhsa/features/gloss/)
 * `Ref`
+  * Book abbreviations currently in use are `GEN` for Genesis and `RUTH` for Ruth
 * `SpaceAfter=No`
+* `Translit`
+  * The value of this field follows the [Library of Congress romanization standard](https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf)
 
 ## Syntax
 
