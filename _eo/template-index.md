@@ -10,6 +10,8 @@ udver: '2'
 
 Esperanto words are delimited by whitespace or punctuation, and no tokens in any of the UD Esperanto corpus currently contain whitespace. Only a few multiword tokens should be used for Esperanto clitics, such as dank'al ("danke" + "al", "thanks to"), or l' (reduced form of the definite article "la"). 
 
+(To be continued)
+
 ## Morphology
 
 ### Tags
