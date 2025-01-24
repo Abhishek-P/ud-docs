@@ -59,7 +59,7 @@ The following MISC features are present:
 
 The subtypes [compound:smixut](hbo-dep/compound-smixut), [nmod:poss](hbo-dep/nmod-poss), and [obl:npmod](hbo-dep/obl-npmod) are used. The relation `compound` is currently unused.
 
-The relations `iobj`, `expl`, and `clf` are unused.
+The relations `iobj`, and `clf` are unused.
 
 The relations `list`, `goeswith`, `reparandum`, and `dep` are currently unused, but may be used in future.
 
