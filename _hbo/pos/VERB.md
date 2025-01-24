@@ -52,3 +52,19 @@ If a participle appears with compound morphology (that is, if its arguments are 
 _כי ידע אלהים כי ביום אכלכם ממנו ונפקחו עיניכם והייתם כאלהים **ידעי** טוב ורע׃_
 
 _Because God knows that in the day of your eating from it, your eyes will be opened and you will be like God, **knowers** of good and evil.__
+
+## Features
+
+The two existential verbs should always have `Mood=Ind|VerbForm=Fin`.
+
+All other verbs should have values for [HebBinyan](hbo-feat/HebBinyan) and [VerbForm](hbo-feat/VerbForm).
+
+With `VerbForm=Fin`, there should also be values for [Aspect](hbo-feat/Aspect), [Mood](hbo-feat/Mood), [Number](hbo-feat/Number), [Person](hbo-feat/Person), and [Tense](hbo-feat/Tense). If the verb is not first person, there should also be a value for [Gender](hbo-feat/Gender).
+
+No additional features should be marked for `VerbForm=Inf`.
+
+With `VerbForm=Part`, there should be values for [Gender](hbo-feat/Gender) and [Number](hbo-feat/Number).
+
+## XPOS
+
+All words tagged `VERB` have BHSA POS tag `verb`, except the existentials, which are tagged `subs`.
