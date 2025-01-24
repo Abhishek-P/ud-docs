@@ -8,12 +8,7 @@ udver: '2'
 
 ## Tokenization and Word Segmentation
 
-*
-
----
-**Instruction**: Describe the general rules for delimiting words (for example, based on whitespace and punctuation) and exceptions to these rules. Specify whether words with spaces and/or multiword tokens occur. Include links to further language-specific documentation if available.
-
----
+Esperanto words are delimited by whitespace or punctuation, and no tokens in any of the UD Esperanto corpus currently contain whitespace. Only a few multiword tokens should be used for Esperanto clitics, such as dank'al ("danke" + "al", "thanks to"), or l' (reduced form of the definite article "la"). 
 
 ## Morphology
 
