@@ -77,4 +77,6 @@ _ṿayigdal haʼish ṿayelekh halokh ṿegadel ʻad ki gadal meʼod_
 
 _And the man went, going and growing strong, until he was very strong._
 
+The name of this relation was determined in [Issue #832](https://github.com/UniversalDependencies/docs/issues/832), but may at some point be renamed as a result of the discussion in [Issue #1028](https://github.com/UniversalDependencies/docs/issues/1028).
+
 <!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:20 CET -->
