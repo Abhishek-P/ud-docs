@@ -29,6 +29,27 @@ The positive and negative existentials ישׁ and אין are tagged [VERB]().
 
 Participles are tagged either [VERB]() or [NOUN](). If they have arguments or obliques, they are tagged as [VERB](), but if they do not then they are tagged as [NOUN]() if they participate in nominal phrases.
 
+The correspondences between XPOS ([BHSA feature `sp`](https://etcbc.github.io/bhsa/features/sp/)) and UPOS are listed below:
+
+| BHSA tag | BHSA name | UPOS | Notes |
+|----------|-----------|------|-------|
+| `adjv` | adjective | [ADJ]() or [NUM]() | Also [NOUN]() in certain situations |
+| `advb` | adverb | [ADV]() | |
+| `art` | article | [DET]() | Also [SCONJ]() in certain situations |
+| `conj` | conjunction | [CCONJ]() or [SCONJ]() | |
+| `inrg` | interrogative particle | [ADV]() or [PART]() | |
+| `intj` | interjection | [INTJ]() | |
+| `nega` | negative particle | [ADV]() | |
+| `nmpr` | proper noun | [PROPN]() | |
+| `prde` | demonstrative pronoun | [PRON]() | |
+| `prep` | preposition | [ADP]() | |
+| `prin` | interrogative pronoun | [PRON]() | |
+| `prn` | pronominal suffix | [PRON]() | Tag added in conversion process |
+| `prps` | personal pronoun | [PRON]() | |
+| `punct` | punctuation | [PUNCT]() | Tag added in conversion process |
+| `subs` | noun | [NOUN]() | Certain lemmas are [ADP](), [ADV](), [NUM](), or [SCONJ]() |
+| `verb` | verb | [VERB]() ([AUX]() for היה) | Also [NOUN]() in certain situations |
+
 ### Features
 
 The following universal features are in use:

@@ -56,7 +56,7 @@ _כי ידע אלהים כי ביום אכלכם ממנו ונפקחו עיני�
 
 _ki yodeʻa ʼelohim ki beyom ʼakhalkem mimenu ṿenifḳeḥu ʻenekhem ṿihyitem keʼlohim **yodʻe** ṭov ṿaraʻ_
 
-_Because God knows that in the day of your eating from it, your eyes will be opened and you will be like God, **knowers** of good and evil.__
+_Because God knows that in the day of your eating from it, your eyes will be opened and you will be like God, **knowers** of good and evil._
 
 ## Features
 
