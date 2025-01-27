@@ -107,7 +107,7 @@ Latgalian features rich set of deverbal derivations and not everything has been 
 
 #### Unused Features
 
-Features not applicable for Latvian:
+Features not applicable for Latgalian:
 * [Animacy](),
 * [Clusivity](),
 * [NounClass](),
