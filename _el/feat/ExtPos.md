@@ -49,7 +49,7 @@ Multiword adpositions occur in many languages. Often they are grammaticalized pr
 
 #### Examples
 
-* [el] _<b>υπό την αιγίδα</b> _ “<b>under the auspices</b> ” (here the first node is the technical head and it is a preposition itself, so UPOS = `ExtPos`)
+* [el] _<b>υπό την αιγίδα</b> _ “<b>under the auspices</b> ” (here the first node is a [PREP]() of Ancient Greek)
 <!-- * [cs] _<b>nehledě na</b> jeho úspěchy_ “<b>disregarding</b> his achievements” (here the first node is a [VERB]())-->
 
 ### <a name="ADV">`ADV`</a>: adverb-like expression
@@ -68,7 +68,7 @@ Multiword adpositions occur in many languages. Often they are grammaticalized pr
 
 #### Examples
 
-* [el] _πέντε δέκα_ “five or ten” (_five_ = `NUM`)
+* [el] _πέντε δέκα_ “five or ten” (_five_ = [NUM]())
 
 <!-- ### <a name="INTJ">`INTJ`</a>: interjection-like expression -->
 
