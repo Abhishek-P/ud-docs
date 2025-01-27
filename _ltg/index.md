@@ -140,6 +140,8 @@ The following relation subtypes are used in Latgalian:
 * [aux:pass]() for passive auxiliaries
 * [flat:foreign]() for non-first words in quoted foreign phrases
 * [flat:name]() for exocentric complex name
+* [advmod:neg]() for negative particles
+* [advmod:emph]() for emphasizing particles
 
 The following relation types are not used for Latgalian: [clf](), [dislocated](), [list](), [reparandum](). However, `reparandum` should be introduced in future, as appropriate speech texts are annotated.
 
