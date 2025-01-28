@@ -41,7 +41,7 @@ words) or as an interjection.
 
 #### Examples
 
-* [el] _<b>μη μου άπτου</b>_ (a multiword adjective paraphrasable as “too sensitive”, lit. "not me touch"; the first node is [PART]())
+* [el] _<b>μη μου άπτου</b>_ (a multiword adjective paraphrasable as “too sensitive”, lit. "not me touch"; the first node is a [PART]())
 
 ### <a name="ADP">`ADP`</a>: adposition-like expression
 
@@ -68,7 +68,7 @@ Multiword adpositions occur in many languages. Often they are grammaticalized pr
 
 #### Examples
 
-* [el] _πέντε δέκα_ “five or ten” (here the first node_five_ = [NUM]())
+* [el] _πέντε δέκα_ “five or ten” (here the first node _five_ is a [NUM]())
 
 <!-- ### <a name="INTJ">`INTJ`</a>: interjection-like expression -->
 
