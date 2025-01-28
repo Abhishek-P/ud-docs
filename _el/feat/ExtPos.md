@@ -49,7 +49,7 @@ Multiword adpositions occur in many languages. Often they are grammaticalized pr
 
 #### Examples
 
-* [el] _<b>υπό την αιγίδα</b>_ “<b>under the auspices</b> ” (here the first node is an [ADP]() of Ancient Greek)
+* [el] _<b>υπό την αιγίδα</b>_ “<b>under the auspices</b>” (here the first node is an [ADP]() of Ancient Greek)
 <!-- * [cs] _<b>nehledě na</b> jeho úspěchy_ “<b>disregarding</b> his achievements” (here the first node is a [VERB]())-->
 
 ### <a name="ADV">`ADV`</a>: adverb-like expression
@@ -70,11 +70,11 @@ Multiword adpositions occur in many languages. Often they are grammaticalized pr
 
 * [el] _πέντε δέκα_ “five or ten” (here the first node _five_ is a [NUM]())
 
-<!-- ### <a name="INTJ">`INTJ`</a>: interjection-like expression -->
+ ### <a name="INTJ">`INTJ`</a>: interjection-like expression 
 
-<!-- #### Examples -->
+ #### Examples
 
-<!-- * [es] _¡<b>Por Dios</b>!_ “for God’s sake” (_por_ = `ADP`, _Dios_ = [PROPN]()) -->
+<!-- * [es] _¡<b>για τ' όνομα του Θεού</b>!_ “for God’s sake” (here the first node _για_ is an [ADP](), _Θεού_ is a [PROPN]()) and the remaining words determiners)
 
 <!-- ### <a name="PRON">`PRON`</a>: pronoun-like expression -->
 
@@ -88,10 +88,10 @@ Multiword adpositions occur in many languages. Often they are grammaticalized pr
 
 <!-- * [cs] _Jeho kniha <b>Most přes řeku Kwai</b> byla zfilmována._ “His book <b>The Bridge over the River Kwai</b> was made into a movie.” (_Most_ = [NOUN]()) -->
 
-<!-- ### <a name="SCONJ">`SCONJ`</a>: subordinator-like expression -->
+ ### <a name="SCONJ">`SCONJ`</a>: subordinator-like expression 
 
-<!-- #### Examples -->
+#### Examples
 
-<!-- * [fr] _<b>bien que</b>_ “although” (_bien_ = `ADV`) -->
+ * [fr] _<b>σε περίπτωση που</b>_ “in the case that, if” (here the first node _σε_ is an [ADP]())
 
 <!-- Interlanguage links updated Po 11. listopadu 2024, 20:09:41 CET -->
