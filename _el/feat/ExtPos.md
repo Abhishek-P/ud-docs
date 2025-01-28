@@ -49,26 +49,26 @@ Multiword adpositions occur in many languages. Often they are grammaticalized pr
 
 #### Examples
 
-* [el] _<b>υπό την αιγίδα</b>_ “<b>under the auspices</b> ” (here the first node is a [ADP]() of Ancient Greek)
+* [el] _<b>υπό την αιγίδα</b>_ “<b>under the auspices</b> ” (here the first node is an [ADP]() of Ancient Greek)
 <!-- * [cs] _<b>nehledě na</b> jeho úspěchy_ “<b>disregarding</b> his achievements” (here the first node is a [VERB]())-->
 
 ### <a name="ADV">`ADV`</a>: adverb-like expression
 
 #### Examples
 
-* [el] _<b>μια ώρα αρχύτερα</b>_ (a multiword adverb paraphrasable as “as early as possible”; the first node is [NUM]())
+* [el] _<b>μια ώρα αρχύτερα</b>_ (a multiword adverb paraphrasable as “as early as possible”; the first node is a [NUM]())
 
 ### <a name="CCONJ">`CCONJ`</a>: coordinating conjunction-like expression
 
 #### Examples
 
-* [el] _<b>ακόμη και</b>_ “even the” (_aκόμη_ = [ADV]())
+* [el] _<b>ακόμη και</b>_ “even the” (here the first node _aκόμη_ is an [ADV]())
 
 ### <a name="DET">`DET`</a>: determiner-like expression
 
 #### Examples
 
-* [el] _πέντε δέκα_ “five or ten” (_five_ = [NUM]())
+* [el] _πέντε δέκα_ “five or ten” (here the first node_five_ = [NUM]())
 
 <!-- ### <a name="INTJ">`INTJ`</a>: interjection-like expression -->
 
