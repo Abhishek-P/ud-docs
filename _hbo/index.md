@@ -78,7 +78,7 @@ The following MISC features are present:
 
 ## Syntax
 
-The subtypes [compound:smixut](hbo-dep/compound-smixut), [nmod:poss](hbo-dep/nmod-poss), and [obl:npmod](hbo-dep/obl-npmod) are used. The relation `compound` is currently unused.
+The subtypes [acl:relcl](), [compound:smixut](dep/compound-smixut), [nmod:poss](hbo-dep/nmod-poss), [nsubj:outer](), and [obl:npmod](hbo-dep/obl-npmod) are used. The relation `compound` is currently unused.
 
 The relations `iobj`, and `clf` are unused.
 
