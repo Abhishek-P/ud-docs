@@ -55,12 +55,17 @@ The correspondences between XPOS ([BHSA feature `sp`](https://etcbc.github.io/bh
 The following universal features are in use:
 
 * [Aspect](hbo-feat/Aspect): [AUX](hbo-pos/AUX), [VERB](hbo-pos/VERB)
+* [ExtPos]()
 * [Gender](hbo-feat/Gender): [ADJ](hbo-pos/ADJ), [AUX](hbo-pos/AUX), [NOUN](hbo-pos/NOUN), [PRON](hbo-pos/PRON), [VERB](hbo-pos/VERB)
 * [Mood](hbo-feat/Mood): [VERB](hbo-pos/VERB)
 * [Number](hbo-feat/Number): [NOUN](hbo-pos/NOUN), [PRON](hbo-pos/PRON), [ADJ](hbo-pos/ADJ), [VERB](hbo-pos/VERB)
+* [NumType](): [NUM]()
 * [Person](hbo-feat/Person): [AUX](hbo-pos/AUX), [VERB](hbo-pos/VERB)
+* [Polarity](): [ADV]()
+* [PronType](): [PRON]()
 * [Tense](hbo-feat/Tense): [VERB](hbo-pos/VERB)
 * [VerbForm](hbo-feat/VerbForm): [NOUN](hbo-pos/NOUN), [VERB](hbo-pos/VERB)
+* [Voice](): [VERB]()
 
 The following language-specific features are in use:
 
@@ -78,7 +83,7 @@ The following MISC features are present:
 
 ## Syntax
 
-The subtypes [acl:relcl](), [compound:smixut](dep/compound-smixut), [nmod:poss](hbo-dep/nmod-poss), [nsubj:outer](), and [obl:npmod](hbo-dep/obl-npmod) are used. The relation `compound` is currently unused.
+The subtypes [acl:relcl](), [compound:smixut](), [nmod:poss](), [nsubj:outer](), and [obl:npmod]() are used. The relation `compound` is currently unused.
 
 The relations `iobj`, and `clf` are unused.
 
