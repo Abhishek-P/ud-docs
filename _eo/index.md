@@ -14,7 +14,37 @@ Esperanto words are delimited by whitespace or punctuation, and no tokens in any
 (To be continued)
 
 ## Morphology
+In Esperanto, the word-ending morpheme of a word indicates its part of speech: Nouns end with "-o" (when nominative singular), infinitive verbs with "-i," adjectives with "-a," and adverbs with "-e." For example,with the root "aŭd-", "aŭdo" means "hearing," "aŭdi" means "to hear," "aŭda" means "auditory," and "aŭde" means "by ear."
 
+### Nouns:
+Suffixes on nouns indicate their case and number: Nouns ending with "-o" are nominative singular, those with "-oj" are nominative plural, "-on" accusative singular, and "-ojn" accusative plural. For example,
+
+"Esploristo faras eksperimenton." "A researcher is conducting an experiment."
+
+The noun "esploristo" is a nominative singular, functioning as the subject of the verb "faras," while the noun "eksperimenton" is an accusative singular, functioning as the object of the same verb. For another example, 
+
+"Esploristoj faras eksperimentojn." "Researchers are conducting experiments."
+
+The noun "esploristoj" is a nominative plural, functioning as the subject of the verb "faras" (Esperanto does not have subject-verb agreement). The noun "eksperimentojn" is an accusative plural, functioning as the object of the same verb.
+
+### Adjectives:
+Adjectives agree with the nouns they modify in terms of their case and number: Adjectives ending with "-a" are nominative singular, those with "-aj" are nominative plural, "-an" accusative singular, and "-ajn" accusative plural. For example, 
+
+"Laborema esploristo faras malfacilan eksperimenton." "A hard-working researcher is conducting a difficult experiment."
+
+The nominative singular adjective "laborema" agrees with the nominative singular noun "esploristo", while the accusative singular adjective "malfacilan" agrees with the accusative singular noun "experimenton." For another example,
+
+"Laboremaj esploristoj faras malfacilajn eksperimentojn." "Hard-working researchers are conducting difficult experiments."
+
+The nominative plural adjective "laboremaj" agrees with the nominative plural noun "esploristoj", while the accusative plural adjective "malfacilajn" agrees with the accusative plural noun "experimentojn."
+
+Adjectives also agree with the subject when they are the complement of the copula "esti." For example,
+
+"Ĉi tiuj eksperimentoj estas malfacilaj." "These experiments are difficult."
+
+The nominative plural adjective "malfacilaj" agrees with the nominative plural noun "eksperimentoj."
+
+(To be continued)
 ### Tags
 
 *
