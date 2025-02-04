@@ -34,11 +34,11 @@ Development of the treebank happens directly in the UD repository, so you may su
 
 | Annotation | Source |
 |------------|--------|
-| Lemmas | assigned by a program, with some manual corrections, but not a full manual verification |
-| UPOS | assigned by a program, with some manual corrections, but not a full manual verification |
+| Lemmas | annotated manually, natively in UD style |
+| UPOS | annotated manually, natively in UD style |
 | XPOS | not available |
-| Features | assigned by a program, with some manual corrections, but not a full manual verification |
-| Relations | assigned by a program, with some manual corrections, but not a full manual verification |
+| Features | annotated manually, natively in UD style |
+| Relations | annotated manually, natively in UD style |
 
 ## Description
 
