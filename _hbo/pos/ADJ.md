@@ -69,3 +69,11 @@ _"And behold, seven other cows came up after them, **poor** and very **bad** of 
 
 If the word in question participates in [compound:smixut](), then that is considered to take precedence, and the tag is changed to [NOUN]().
 Thus רעות /raʻot/ "bad" and רקות /raḳot/ "thin" in the above example are [NOUN]()s because the words immediately after them are attached with [compound:smixut]().
+
+## Features
+
+Adjectives should have values for [Gender]() and [Number]().
+
+## XPOS
+
+Adjectives have the BHSA POS tag `adjv`.

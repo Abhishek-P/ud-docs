@@ -239,3 +239,16 @@ _ויאמר בעז לנערו הנצב על־הקוצרים **למי** הנער�
 _ṿayoʼmer boʻaz lenaʻaro hanitsav ʻal haḳotsrim **lemi** hanaʻarah hazoʼt_
 
 _And Boaz said to his young man who was stationed over the harvesters "**whose** is this young woman?"._
+
+## Features
+
+All pronouns should have a value for [PronType]().
+
+Personal pronouns (`PronType=Prs`) and demonstrative pronouns (`PronType=Dem`) should have [Gender]() and [Number]().
+Personal pronouns should additionally have [Person]().
+
+Interrogative pronouns should not have additional features.
+
+## XPOS
+
+In BHSA, pronouns can have the POS tags `prde`, `prin`, and `prps`, in addition to the pseudo-POS tag `prn`.

@@ -37,3 +37,11 @@ _ויהוה אמר המכסה אני מאברהם אשר אני עשה׃_
 _ṿaihoṿah ʼamar hamkaseh ʼani meʼavraham ʼasher ʼani ʻośeh_
 
 _And The LORD said "Shall I prevent Abraham from knowing what I am doing?"._
+
+## Features
+
+Particles should not have any features.
+
+## XPOS
+
+Interrogative particles have the BHSA POS tag `inrg`.

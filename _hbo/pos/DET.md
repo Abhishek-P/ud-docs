@@ -95,3 +95,11 @@ _וישם דרך שלשת ימים בינו ובין יעקב ויעקב רעה 
 _ṿayaśem derekh sheloshet yamim beno uven yaʻaḳov ṿeyaʻaḳov roʻeh ʼet tsoʼn lavan hanotarot_
 
 _And he put a road of three days between him and between Jacob, and Jacob pastured the flock of Laban which remained._
+
+## Features
+
+Determiners should have the feature [PronType]() with the value `Art`.
+
+## XPOS
+
+Determiners have the BHSA POS tag `art`.
