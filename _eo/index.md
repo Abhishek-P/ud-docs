@@ -9,53 +9,53 @@ As of January 2025, Esperanto UD contains one document (Manufest de Prago) annot
 
 ## Tokenization and Word Segmentation
 
-Esperanto words are delimited by whitespace or punctuation, and no tokens in any of the UD Esperanto corpus currently contain whitespace. Only a few multiword tokens should be used for Esperanto clitics, such as dank'al ("danke" + "al", "thanks to"), or l' (reduced form of the definite article "la"). 
+Esperanto words are delimited by whitespace or punctuation, and no tokens in any of the UD Esperanto corpus currently contain whitespace. Only a few multiword tokens should be used for Esperanto clitics, such as _dank'al_ (_danke_ + _al_, "thanks to"), or l' (reduced form of the definite article "la"). 
 
 (To be continued)
 
 ## Morphology
-In Esperanto, the word-ending morpheme of a word indicates its part of speech: Nouns end with "-o" (when nominative singular), infinitive verbs with "-i," adjectives with "-a," and adverbs with "-e." For example,with the root "aŭd-", "aŭdo" means "hearing," "aŭdi" means "to hear," "aŭda" means "auditory," and "aŭde" means "by ear."
+In Esperanto, the word-ending morpheme of a word indicates its part of speech: Nouns end with _-o_ (when nominative singular), infinitive verbs with _-i_, adjectives with _-a_, and adverbs with _-e_. For example,with the root _aŭd-_, _aŭdo_ means "hearing," _aŭdi_ means "to hear," _aŭda_ means "auditory," and _aŭde_ means "by ear."
 
 ### Nouns:
-Suffixes on nouns indicate their case and number: Nouns ending with "-o" are nominative singular, those with "-oj" are nominative plural, "-on" accusative singular, and "-ojn" accusative plural. For example,
+Suffixes on nouns indicate their case and number: Nouns ending with _-o_ are nominative singular, those with _-oj_ are nominative plural, _-on_ accusative singular, and _-ojn_ accusative plural. For example,
 
-"Esploristo faras eksperimenton." "A researcher conducts an experiment."
+_Esploristo faras eksperimenton._ "A researcher conducts an experiment."
 
-The noun "esploristo" is a nominative singular, functioning as the subject of the verb "faras," while the noun "eksperimenton" is an accusative singular, functioning as the object of the same verb. For another example, 
+The noun _esploristo_ is a nominative singular, functioning as the subject of the verb _faras_, while the noun _eksperimenton_ is an accusative singular, functioning as the object of the same verb. For another example, 
 
-"Esploristoj faras eksperimentojn." "Researchers conduct experiments."
+_Esploristoj faras eksperimentojn_. "Researchers conduct experiments."
 
-The noun "esploristoj" is a nominative plural, functioning as the subject of the verb "faras" (Esperanto does not have subject-verb agreement). The noun "eksperimentojn" is an accusative plural, functioning as the object of the same verb.
+The noun _esploristoj_ is a nominative plural, functioning as the subject of the verb _faras_ (Esperanto does not have subject-verb agreement). The noun _eksperimentojn_ is an accusative plural, functioning as the object of the same verb.
 
 ### Adjectives:
-Adjectives agree with the nouns they modify in terms of their case and number: Adjectives ending with "-a" are nominative singular, those with "-aj" are nominative plural, "-an" accusative singular, and "-ajn" accusative plural. For example, 
+Adjectives agree with the nouns they modify in terms of their case and number: Adjectives ending with _-a_ are nominative singular, those with _-aj_ are nominative plural, _-an_ accusative singular, and _-ajn_ accusative plural. For example, 
 
-"Laborema esploristo faras malfacilan eksperimenton." "A hard-working researcher conducts a difficult experiment."
+_Laborema esploristo faras malfacilan eksperimenton._ "A hard-working researcher conducts a difficult experiment."
 
-The nominative singular adjective "laborema" agrees with the nominative singular noun "esploristo", while the accusative singular adjective "malfacilan" agrees with the accusative singular noun "experimenton." For another example,
+The nominative singular adjective _laborema_ agrees with the nominative singular noun _esploristo_, while the accusative singular adjective _malfacilan_ agrees with the accusative singular noun _experimenton._ For another example,
 
-"Laboremaj esploristoj faras malfacilajn eksperimentojn." "Hard-working researchers conduct difficult experiments."
+_Laboremaj esploristoj faras malfacilajn eksperimentojn._ "Hard-working researchers conduct difficult experiments."
 
-The nominative plural adjective "laboremaj" agrees with the nominative plural noun "esploristoj", while the accusative plural adjective "malfacilajn" agrees with the accusative plural noun "experimentojn."
+The nominative plural adjective _laboremaj_ agrees with the nominative plural noun _esploristoj,_ while the accusative plural adjective _malfacilajn_ agrees with the accusative plural noun _experimentojn._
 
-Adjectives also agree with the subject when they are the complement of the copula "esti." For example,
+Adjectives also agree with the subject when they are the complement of the copula _esti._ For example,
 
-"Ĉi tiuj eksperimentoj estas malfacilaj." "These experiments are difficult."
+_Ĉi tiuj eksperimentoj estas malfacilaj._ "These experiments are difficult."
 
 The nominative plural adjective "malfacilaj" agrees with the nominative plural noun "eksperimentoj."
 
 ### Verbs:
-Suffixes on verbs indicate their mood and tense: verbs ending with "-i" are their infinite forms, "-as" indicates the indicative present, "-is" the indicative past, "-os" the indicative future, "-us" the subjunctive, and "-u" the imperative. For example,
+Suffixes on verbs indicate their mood and tense: verbs ending with _-i_ are their infinite forms, _-as_ indicates the indicative present, _-is_ the indicative past, _-os_ the indicative future, _-us_ the subjunctive, and _-u_ the imperative. For example,
 
-"Esploristo faras eksperimenton." "A researcher conducts an experiment."
+_Esploristo faras eksperimenton._ "A researcher conducts an experiment."
 
-"Esploristo faris eksperimenton." "A researcher conducted an experiment."
+_Esploristo faris eksperimenton._ "A researcher conducted an experiment."
 
-"Esploristo faros eksperimenton." "A researcher will conduct an experiment."
+_Esploristo faros eksperimenton._ "A researcher will conduct an experiment."
 
-"Eploristo farus eksperimenton." "A researcher would conduct an experiment."
+_Eploristo farus eksperimenton._ "A researcher would conduct an experiment."
 
-"Faru eksperimenton, mi petas." "Conduct an experiment, please."
+_Faru eksperimenton, mi petas._ "Conduct an experiment, please."
 
 (To be continued)
 ### Tags
