@@ -45,12 +45,16 @@ Adjectives also agree with the subject when they are the complement of the copul
 The nominative plural adjective "malfacilaj" agrees with the nominative plural noun "eksperimentoj."
 
 ### Verbs:
-Suffixes on verbs indicate their mood and tense: verbs ending with "-i" are their infinite forms, those with "-as" are in the indicative present, "-is" in the indicative past, "-os" in the indicative future, "-us" in the subjunctive, and "-u" in the imperative. Verbs do not agree with their subjects. For example,
+Suffixes on verbs indicate their mood and tense: verbs ending with "-i" are their infinite forms, "-as" indicates the indicative present, "-is" the indicative past, "-os" the indicative future, "-us" the subjunctive, and "-u" the imperative. For example,
 
 "Esploristo faras eksperimenton." "A researcher conducts an experiment."
+
 "Esploristo faris eksperimenton." "A researcher conducted an experiment."
+
 "Esploristo faros eksperimenton." "A researcher will conduct an experiment."
+
 "Eploristo farus eksperimenton." "A researcher would conduct an experiment."
+
 "Faru eksperimenton, mi petas." "Conduct an experiment, please."
 
 (To be continued)
