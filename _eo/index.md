@@ -19,22 +19,22 @@ In Esperanto, the word-ending morpheme of a word indicates its part of speech: N
 ### Nouns:
 Suffixes on nouns indicate their case and number: Nouns ending with "-o" are nominative singular, those with "-oj" are nominative plural, "-on" accusative singular, and "-ojn" accusative plural. For example,
 
-"Esploristo faras eksperimenton." "A researcher is conducting an experiment."
+"Esploristo faras eksperimenton." "A researcher conducts an experiment."
 
 The noun "esploristo" is a nominative singular, functioning as the subject of the verb "faras," while the noun "eksperimenton" is an accusative singular, functioning as the object of the same verb. For another example, 
 
-"Esploristoj faras eksperimentojn." "Researchers are conducting experiments."
+"Esploristoj faras eksperimentojn." "Researchers conduct experiments."
 
 The noun "esploristoj" is a nominative plural, functioning as the subject of the verb "faras" (Esperanto does not have subject-verb agreement). The noun "eksperimentojn" is an accusative plural, functioning as the object of the same verb.
 
 ### Adjectives:
 Adjectives agree with the nouns they modify in terms of their case and number: Adjectives ending with "-a" are nominative singular, those with "-aj" are nominative plural, "-an" accusative singular, and "-ajn" accusative plural. For example, 
 
-"Laborema esploristo faras malfacilan eksperimenton." "A hard-working researcher is conducting a difficult experiment."
+"Laborema esploristo faras malfacilan eksperimenton." "A hard-working researcher conducts a difficult experiment."
 
 The nominative singular adjective "laborema" agrees with the nominative singular noun "esploristo", while the accusative singular adjective "malfacilan" agrees with the accusative singular noun "experimenton." For another example,
 
-"Laboremaj esploristoj faras malfacilajn eksperimentojn." "Hard-working researchers are conducting difficult experiments."
+"Laboremaj esploristoj faras malfacilajn eksperimentojn." "Hard-working researchers conduct difficult experiments."
 
 The nominative plural adjective "laboremaj" agrees with the nominative plural noun "esploristoj", while the accusative plural adjective "malfacilajn" agrees with the accusative plural noun "experimentojn."
 
@@ -43,6 +43,15 @@ Adjectives also agree with the subject when they are the complement of the copul
 "Ĉi tiuj eksperimentoj estas malfacilaj." "These experiments are difficult."
 
 The nominative plural adjective "malfacilaj" agrees with the nominative plural noun "eksperimentoj."
+
+### Verbs:
+Suffixes on verbs indicate their mood and tense: verbs ending with "-i" are their infinite forms, those with "-as" are in the indicative present, "-is" in the indicative past, "-os" in the indicative future, "-us" in the subjunctive, and "-u" in the imperative. Verbs do not agree with their subjects. For example,
+
+"Esploristo faras eksperimenton." "A researcher conducts an experiment."
+"Esploristo faris eksperimenton." "A researcher conducted an experiment."
+"Esploristo faros eksperimenton." "A researcher will conduct an experiment."
+"Eploristo farus eksperimenton." "A researcher would conduct an experiment."
+"Faru eksperimenton, mi petas." "Conduct an experiment, please."
 
 (To be continued)
 ### Tags
