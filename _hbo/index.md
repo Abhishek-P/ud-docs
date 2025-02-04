@@ -11,7 +11,6 @@ udver: '2'
 No tokens in the Ancient Hebrew treebank should contain whitespace. The following are made into separate tokens:
 
 * Prepositions (ב, כ, ל, מ)
-  * There is an exception for לאמר, which remains a single token when it serves as a subordinating conjunction introducing a direct quotation
 * Possessive and object pronouns (ני, נו, ו, ם, ...)
   * The corresponding independent pronoun is used as the lemma
 * Conjunction ו
@@ -29,11 +28,13 @@ The positive and negative existentials ישׁ and אין are tagged [VERB]().
 
 Participles are tagged either [VERB]() or [NOUN](). If they have arguments or obliques, they are tagged as [VERB](), but if they do not then they are tagged as [NOUN]() if they participate in nominal phrases.
 
-The correspondences between XPOS ([BHSA feature `sp`](https://etcbc.github.io/bhsa/features/sp/)) and UPOS are listed below:
+The correspondences between XPOS ([BHSA feature `sp`](https://etcbc.github.io/bhsa/features/sp/)) and UPOS are listed below.
+Rows prefixed with → indicate that the part of speech tag's correspondence is conditioned by the [BHSA lexical set feature](https://etcbc.github.io/bhsa/features/ls/).
 
 | BHSA tag | BHSA name | UPOS | Notes |
 |----------|-----------|------|-------|
-| `adjv` | adjective | [ADJ]() or [NUM]() | Also [NOUN]() in certain situations |
+| `adjv` | adjective | [ADJ]() | Also [NOUN]() in certain situations |
+| → `ordn` | ordinal | [NUM]() | |
 | `advb` | adverb | [ADV]() | |
 | `art` | article | [DET]() | Also [SCONJ]() in certain situations |
 | `conj` | conjunction | [CCONJ]() or [SCONJ]() | |
@@ -47,8 +48,13 @@ The correspondences between XPOS ([BHSA feature `sp`](https://etcbc.github.io/bh
 | `prn` | pronominal suffix | [PRON]() | Tag added in conversion process |
 | `prps` | personal pronoun | [PRON]() | |
 | `punct` | punctuation | [PUNCT]() | Tag added in conversion process |
-| `subs` | noun | [NOUN]() | Certain lemmas are [ADP](), [ADV](), [NUM](), or [SCONJ]() |
-| `verb` | verb | [VERB]() ([AUX]() for היה) | Also [NOUN]() in certain situations |
+| `subs` | noun | [NOUN]() | |
+| → `card` | cardinal | [NUM]() | |
+| → `nmcp` | copulative noun | [VERB]() | These are the existential verbs |
+| → `padv` | potential adverb | [ADV]() | Sometimes |
+| → `ppre` | potential preposition | [ADP]() | Sometimes |
+| `verb` | verb | [VERB]() | Also [NOUN]() in certain situations |
+| → `vbcp` | copulative verb | [AUX]() | |
 
 ### Features
 
