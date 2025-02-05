@@ -59,8 +59,15 @@ _Faru eksperimenton, mi petas._ "Conduct an experiment, please."
 
 (To be continued)
 ### Tags
-Esperanto uses 14 universal POS categories.
+Esperanto uses all 17 universal POS categories.
 
+PART is annotated to _ĉi_, the adverbial particle for expressing proximity, making the distinctiong between _tiu_ "that" and _ĉi_ _tiu_ "this". 
+
+AUX is annotated to the copula _esti_.
+
+DET is annotated to the definite article _la_ (Esperanto has no indefinite article), _iu_ "some," _tiu_ "that," _ĉiu_ "all," etc. when used before a noun. 
+
+Each participle is annotated with the appropriate tag according to its function in the sentence it appears, which may be revised in future.
 (To be continued)
 
 ### Features
